@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Login from './login/Login.js';
+import Register from './login/Register';
+import Homepage from './pages/Homepage';
+import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Admin from './pages/Admin';
+import Career from './pages/Career';
+import axios from 'axios';
+
 
 function App() {
+
+ 
+  
+  const [user,setUser] = useState()
+
+  const [defaultuser,setdefaultuser] = useState({
+    name: "Login"
+  })
+
+ 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <BrowserRouter>
+        <Routes>
+            <Route exact path ='/' element = {user && user._id ? <Homepage user = {user}/> : <Homepage user = {defaultuser}/>}/>
+            <Route exact path ='/login' element= {<Login setUser = {setUser}/>}/>
+            <Route exact path ='/register' element= {<Register/>}/>
+            <Route exact path ='/admin' element= {user && user._id && user.email === "sadhak2003@gmail.com" ? <Admin/> : (user && user._id ? <Homepage user = {user}/> : <Homepage user = {defaultuser}/>)}/>
+            <Route exact path ='/career' element= {user && user._id ? <Career user = {user}/> : <Career user = {defaultuser}/>}/>
+        </Routes>
+    </BrowserRouter>
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Navbar() {
+
+function Navbar(props) {
   return (
     <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -15,13 +17,13 @@ function Navbar() {
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">Features</a>
+                        <Link className="nav-link" to = '/career'>Career</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">Pricing</a>
+                        <Link className="nav-link" to ='/admin'>Admin</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link disabled">Disabled</a>
+                        <Link className="nav-link" to='/login'>{props.user}</Link>
                         </li>
                     </ul>
                 </div>
