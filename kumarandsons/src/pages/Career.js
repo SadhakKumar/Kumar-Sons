@@ -19,7 +19,7 @@ export default function Career(props) {
           }
         })
     }
-
+  
     useEffect(() => {
         getJob();
       }, []);
@@ -29,7 +29,7 @@ export default function Career(props) {
     <div>
         <Navbar user = {props.user.name}/>
         <div className='careercontainer'>
-            <Jobs jobs = {jobs}/>
+            <Jobs jobs = {jobs} user = {props.user}/>
         </div>
     </div>
   )

@@ -19,11 +19,18 @@ mongoose.connect(DB,{
 const userSchema = new mongoose.Schema({
     name: String,
     email: String,
-    password: String
+    password: String,
+    appliedto: [
+        {
+            jobid:Number,
+            title:String
+        
+        }]
 })
 const User = new mongoose.model('USER',userSchema)
 
 const jobSchema = new mongoose.Schema({
+    jobid: Number,
     title: String,
     location: String,
     lowerboundsalary: Number,
@@ -34,6 +41,8 @@ const jobSchema = new mongoose.Schema({
 })
 
 const Job = new mongoose.model('JOB',jobSchema)
+
+Job.updateMany({},{"$set": {"jobid": '1'}});
 
 
 
@@ -104,9 +113,10 @@ app.post("/register", (req,res)=>{
 })
 
 app.post("/admin", (req,res)=>{
-    const {title,location,lowerboundsalary,upperboundsalary,type,qualifications,description} = req.body
+    const {jobid,title,location,lowerboundsalary,upperboundsalary,type,qualifications,description} = req.body
 
     const job = new Job({
+        jobid,
         title,
         location,
         lowerboundsalary,
@@ -129,6 +139,36 @@ app.get("/career",(req,res)=>{
     .then((job)=>{
         res.send(job)
     })
+})
+
+app.post("/job",(req,res)=>{
+    const {jobid, title} = req.body.job;
+    const {email} = req.body.user;
+    var jobdetail = {jobid:jobid,title:title};
+    console.log(email)
+    console.log(jobdetail);
+    // User.findOneAndUpdate({
+    //     email: email
+    // },{$push: {
+    //     appliedto: {jobdetail},
+    // }}, 
+    // ); 
+    User.findOne({email: email})
+    .then((user)=>{
+        user.appliedto.push(jobdetail)  
+        user.save().then(()=>{
+            res.send({message:'Applied to job successfully'})
+        }).catch((err) =>{
+            res.send(err)
+        })
+        console.log(user)
+        // user.appliedto = jobdetail;
+        console.log("inserted")
+    }) 
+    
+    
+    
+
 })
   
 app.listen(8000, () => {

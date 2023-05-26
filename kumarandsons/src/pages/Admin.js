@@ -5,6 +5,7 @@ import axios from 'axios';
 function Admin() {
 
   const [job,setjob] = useState({
+    jobid:"",
     title:"",
     location:"",
     lowerboundsalary:"",
@@ -37,6 +38,7 @@ function Admin() {
       {console.log(job)}
       <div className='parent-container'>
         <div className='container'>
+            <input type="number" placeholder='Job Id' name='jobid' value={job.jobid} onChange={handlechange}/>
             <input type="text" placeholder='Title' name='title' value={job.title} onChange={handlechange}/>
             <input type="text" placeholder='Location' name='location' value={job.location} onChange={handlechange}/>
             <input type="number" placeholder='Lower Bound Salary' name='lowerboundsalary' value={job.lowerboundsalary} onChange={handlechange}/>
