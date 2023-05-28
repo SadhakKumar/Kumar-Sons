@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Admin from './pages/Admin';
 import Career from './pages/Career';
+import Filtertab from './components/Filtertab';
 import axios from 'axios';
 
 
@@ -34,6 +35,7 @@ function App() {
             <Route exact path ='/career' element= {user && user._id ? <Career user = {user}/> : <Career user = {defaultuser}/>}/>
         </Routes>
     </BrowserRouter>
+    {/* <Filtertab/> */}
     </div>
   );
 }

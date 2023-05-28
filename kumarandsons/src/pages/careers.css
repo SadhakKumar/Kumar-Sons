@@ -1,0 +1,8 @@
+.careercontainer{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    margin-left: 350px;
+    margin-right: 350px;
+    /* align-items: center; */
+}

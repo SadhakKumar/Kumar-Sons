@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import Jobs from '../components/Jobs'
 import axios from 'axios'
+import Filtertab from '../components/Filtertab'
+import './careers.css'
 
 
 export default function Career(props) {
@@ -29,6 +31,10 @@ export default function Career(props) {
     <div>
         <Navbar user = {props.user.name}/>
         <div className='careercontainer'>
+          <div>
+            <Filtertab/>
+          </div>
+          
             <Jobs jobs = {jobs} user = {props.user}/>
         </div>
     </div>
