@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './jobs.css'
 import axios from 'axios'
 import { Link, useNavigate } from 'react-router-dom';
@@ -16,8 +16,6 @@ function Jobs(props) {
   const navigate = useNavigate();
 
 
-  const [currjob,setcurrjob] = useState();
-
   const apply  = (job) =>{
     if(props.user.name === 'Login'){
       navigate('/login')
@@ -30,12 +28,19 @@ function Jobs(props) {
       console.log(job);
     }
     
-    
-    
   }
   return (
+    
     <div className='parentcontainer'> 
-      {props.jobs.map((job,index)=>{
+    
+      {props.jobs.filter((items)=>{
+        return props.category === '' ? props.jobs : items.title.toLowerCase().includes(props.category.toLowerCase())
+      }).filter((items) =>{
+        return props.stipend === '' ? items : items.lowerboundsalary >= props.stipend
+      }).filter((items) =>{
+        return (props.workFromHome === false && props.internship === false || props.workFromHome === true && props.internship === true) ? items : (props.workFromHome === false && props.internship === true ? items.type === 'Internship' : items.type === 'Full Time')  
+      })
+      .map((items,index)=>{
         
         return(
           <div className='jobcontainer'>
@@ -44,8 +49,8 @@ function Jobs(props) {
               Actively hiring
             </div>
             <div className='title'>
-              <p className='jobtitle'>{job.title}</p>
-              <p className='joblocation'><LocationOnOutlinedIcon fontSize='small'/>{job.location}</p>
+              <p className='jobtitle'>{items.title}</p>
+              <p className='joblocation'><LocationOnOutlinedIcon fontSize='small'/>{items.location}</p>
             </div>
 
             <div className='workfromhome'>
@@ -65,7 +70,7 @@ function Jobs(props) {
                     <AutoStoriesOutlinedIcon fontSize='small' color="disabled"/>
                     <p className='Qualificationstext'>Qualifications</p>
                   </div>
-                  <p className='jobquali'>{job.qualifications}</p>
+                  <p className='jobquali'>{items.qualifications}</p>
                 </div>
 
                 <div className='jobqualification'>
@@ -73,7 +78,7 @@ function Jobs(props) {
                     <LocalAtmOutlinedIcon fontSize='small' color="disabled"/>
                     <p className='Qualificationstext'>Salary</p>
                   </div>
-                  <p className='jobquali'>₹ {job.lowerboundsalary}-{job.upperboundsalary}/month</p>
+                  <p className='jobquali'>₹ {items.lowerboundsalary}-{items.upperboundsalary}/month</p>
                 </div>
                 
             </div>
@@ -82,12 +87,12 @@ function Jobs(props) {
                 <p className='timetext'><UpdateOutlinedIcon sx={{ fontSize: 14, color: 'green'}}/>Just now</p>
               </div>
               <div className='jobtype'>
-                  <p className='jobtypetext'>{job.type}</p>
+                  <p className='jobtypetext'>{items.type}</p>
               </div>
 
             </div>
             <hr className='line' />
-            <button type="button" class="btn btn-primary" onClick={() => apply(job)}>Apply</button>
+            <button type="button" className="btn btn-primary" onClick={() => apply(items)}>Apply</button>
             
 
           </div>
