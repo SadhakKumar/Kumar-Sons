@@ -7,14 +7,14 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
-const DB = 'mongodb+srv://sadhak2003:kumarandsons@cluster0.y3qk1sm.mongodb.net/?retryWrites=true&w=majority'
+const DB = 'mongodb://sadhak2003:kumarandsons@ac-2fyosia-shard-00-00.y3qk1sm.mongodb.net:27017,ac-2fyosia-shard-00-01.y3qk1sm.mongodb.net:27017,ac-2fyosia-shard-00-02.y3qk1sm.mongodb.net:27017/?ssl=true&replicaSet=atlas-nypq1q-shard-0&authSource=admin&retryWrites=true&w=majority'
 
 mongoose.connect(DB,{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() =>{
     console.log("connection successful")
-}).catch((err) => console.log("not connected"));
+}).catch((err) => console.log(err));
 
 const userSchema = new mongoose.Schema({
     name: String,

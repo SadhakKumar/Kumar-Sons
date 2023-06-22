@@ -19,7 +19,7 @@ function Login(props) {
     const {name,value} = e.target;
 
     setstate({
-      ...state,
+      ...state, 
       [name]: value
     })
   }
