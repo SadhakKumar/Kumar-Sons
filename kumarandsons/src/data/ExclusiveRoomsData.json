@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "src": "https://t.realgeeks.media/thumbnail/02VQzUktLB5iy4FV7DhdSTru5wI=/trim:top-left:50/property-images.realgeeks.com/momaris/ba226e882bba7aa09e86085fd467f2d1.jpg",
+        "title": "Kharghar Magic",
+        "desc": "Escape to a peaceful and treat you and your partner.",
+        "price": 30000,
+        "category": "Exclusive",
+        "keywords": "lover intimate exclusive 3000",
+        "location": "603,Kharghar"
+      },
+      {
+        "id": 2,
+        "src": "https://images.unsplash.com/photo-1541848212-388760a351b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "title": "Mankhurd Miami",
+        "desc": "Indulge in the intercourse of the coast at this picturesque hotel.",
+        "price": 20000,
+        "category": "Romance",
+        "keywords": "coastal paradise serenity romance 5000",
+        "location": "Mankhurd"
+      },
+      {
+        "id": 3,
+        "src": "https://i.guim.co.uk/img/media/070e78698a078acbf8da699d905968c0dbe2a881/0_117_3500_2100/master/3500.jpg?width=1200&quality=85&auto=format&fit=max&s=d4e9c1f822d6f69c5907112113dfa37a",
+        "title": "Changing Room",
+        "desc": "Experience the adrenaline rush like never before.",
+        "price": 0,
+        "category": "Business",
+        "keywords": "cityscape view vibrant buisness",
+        "location": "SGC, Seawoods"
+      },
+      {
+        "id": 4,
+        "src": "https://www.admin.booktheparty.in/assets/images/house_warming/de2472c39acbc67c3f985a0f601fde37.jpeg",
+        "title": "Staircase to Heaven",
+        "desc": "Unwind by the staircase at this idyllic heaven getaway.",
+        "price": 0,
+        "category": "Romance",
+        "keywords": "seaside getaway idyllic romance",
+        "location": "Delta Towers,Ulwe"
+      }
+]

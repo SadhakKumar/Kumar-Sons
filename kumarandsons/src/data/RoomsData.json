@@ -1,0 +1,154 @@
+[
+      {
+        "id": 1,
+        "src": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "title": "Tranquil Retreat",
+        "desc": "Escape to a peaceful retreat amidst nature's beauty.",
+        "price": 3000,
+        "category": "Family",
+        "keywords": "tranquil retreat nature family",
+        "location": "Thane"
+      },
+      {
+        "id": 2,
+        "src": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "title": "Coastal Paradise",
+        "desc": "Indulge in the serenity of the coast at this picturesque hotel.",
+        "price": 5000,
+        "category": "Romance",
+        "keywords": "coastal paradise serenity romance",
+        "location": "Mankhurd"
+      },
+      {
+        "id": 3,
+        "src": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "title": "Cityscape View",
+        "desc": "Experience the vibrant cityscape from the comfort of your room.",
+        "price": 4000,
+        "category": "Business",
+        "keywords": "cityscape view vibrant buisness",
+        "location": "Chembur"
+      },
+      {
+        "id": 4,
+        "src": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+        "title": "Seaside Getaway",
+        "desc": "Unwind by the sea at this idyllic coastal getaway.",
+        "price": 2500,
+        "category": "Romance",
+        "keywords": "seaside getaway idyllic romance",
+        "location": "Ulwe"
+      },
+      {
+        "id": 5,
+        "src": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWwlMjByb29tc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "title": "Mountain Retreat",
+        "desc": "Find solace in the embrace of majestic mountains at this retreat.",
+        "price": 3500,
+        "category": "Family",
+        "keywords": "mountain retreat solace family",
+        "location": "Panvel"
+      },
+      {
+        "id": 6,
+        "src": "https://plus.unsplash.com/premium_photo-1667162631319-6c81cb01fb44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
+        "title": "Serenity Spa",
+        "desc": "Pamper yourself with rejuvenating spa treatments in a tranquil environment.",
+        "price": 6000,
+        "category": "Romance",
+        "keywords":  "serenity spa rejuvenating romance",
+        "location": "Kharghar"
+      },
+      {
+        "id": 7,
+        "src": "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+        "title": "Business Hub",
+        "desc": "A modern hotel equipped with state-of-the-art facilities for business travelers.",
+        "price": 7000,
+        "category": "Business",
+        "keywords": "business hub modern",
+        "location": "Dombivli"
+      },
+      {
+        "id": 8,
+        "src": "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+        "title": "Riverside Retreat",
+        "desc": "Experience tranquility by the riverside at this scenic retreat.",
+        "price": 4500,
+        "category": "Family",
+        "keywords": "riverside retreat scenic family",
+        "location": "Ulhasnagar"
+      },
+      {
+        "id": 9,
+        "src": "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+        "title": "Luxury Haven",
+        "desc": "Indulge in luxury and sophistication at this exquisite hotel.",
+        "price": 8000,
+        "category": "Romance",
+        "keywords": "luxury haven sophistication romance",
+        "location": "Thane"
+      },
+      {
+        "id": 10,
+        "src": "https://images.unsplash.com/photo-1631049035182-249067d7618e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "title": "Lakeside Getaway",
+        "desc": "Escape to a lakeside paradise surrounded by nature's tranquility.",
+        "price": 3500,
+        "category": "Family",
+        "keywords": "lakeside family getaway tranquility",
+        "location": "Mankhurd"
+      },
+      {
+        "id": 11,
+        "src": "https://images.unsplash.com/photo-1578898886225-c7c894047899?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "title": "Urban Oasis",
+        "desc": "Discover an oasis of calm amidst the urban bustle.",
+        "price": 5500,
+        "category": "Business",
+        "keywords": "urban oasis calm buisness",
+        "location": "Chembur"
+      },
+      {
+        "id": 12,
+        "src": "https://images.unsplash.com/photo-1621293954908-907159247fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "title": "Honeymoon Haven",
+        "desc": "Begin your journey together at this enchanting honeymoon haven.",
+        "price": 5000,
+        "category": "Honeymoon",
+        "keywords": "honeymoon enchanting haven",
+        "location": "Ulwe"
+      },
+      {
+        "id": 13,
+        "src": "https://images.unsplash.com/photo-1605346576608-92f1346b67d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "title": "Charming Cottage",
+        "desc": "Experience a cozy and charming stay in a rustic cottage.",
+        "price": 2000,
+        "category": "Family",
+        "keywords": "charming cottage cozy family",
+        "location": "Panvel"
+      },
+      {
+        "id": 14,
+        "src": "https://images.unsplash.com/photo-1608198399988-341f712c3711?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "title": "Business Retreat",
+        "desc": "Unwind and recharge at this exclusive business retreat.",
+        "price": 7000,
+        "category": "Business",
+        "keywords": "business retreat exclusive" ,
+        "location": "Kharghar"
+      },
+      {
+        "id": 15,
+        "src": "https://images.unsplash.com/photo-1592229505726-ca121723b8ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+        "title": "Nature's Hideaway",
+        "desc": "Escape to a hidden paradise nestled amidst nature's wonders.",
+        "price": 4000,
+        "category": "Family",
+        "keywords": "nature hideaway paradise family",
+        "location": "Dombivli"
+      }
+    ]
+  
+  

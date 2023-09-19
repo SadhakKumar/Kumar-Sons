@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "src": "https://images.unsplash.com/photo-1613425653628-23fd58c3c2b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+    "title": "Beach Paradise",
+    "desc": "Escape to a tropical paradise with pristine beaches and crystal-clear waters.",
+    "price": 15000,
+    "keywords": "beach summer family goa 15000",
+    "location": "15000",
+    "category": "Summer"
+  },
+  {
+    "id": 2,
+    "src": "https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=903&q=80",
+    "title": "Mountain Retreat",
+    "desc": "Discover the serenity of the mountains and enjoy breathtaking views.",
+    "price": 25000,
+    "keywords": "mountain honeymoon winter romance shimla 25000",
+    "location": "Shimla",
+    "category": "Winter"
+  },
+  {
+    "id": 3,
+    "src": "https://images.unsplash.com/photo-1611043714658-af3e56bc5299?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    "title": "Family Fun",
+    "desc": "Create unforgettable memories with your loved ones on a family adventure.",
+    "price": 20000,
+    "keywords": "beach summer family hawaii 20000",
+    "location": "Hawaii",
+    "category": "Family"
+  },
+  {
+    "id": 4,
+    "src": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=475&q=80",
+    "title": "Romantic Getaway",
+    "desc": "Indulge in luxury and romance on a dreamy Valentine's Day escape.",
+    "price": 18000,
+    "keywords": "romance valentine luxury bali 18000",
+    "location": "Bali",
+    "category": "Valentine"
+  },
+  {
+    "id": 5,
+    "src": "https://images.unsplash.com/photo-1624049321569-f483adecb8fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "title": "Monsoon Magic",
+    "desc": "Experience the beauty of nature during the monsoon season.",
+    "price": 12000,
+    "keywords": "monsoon nature season family kerala 12000",
+    "location": "Kerala",
+    "category": "Monsoon"
+  },
+  {
+    "id": 6,
+    "src": "https://images.unsplash.com/photo-1636559369171-e5b366bbf420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "title": "Honeymoon Bliss",
+    "desc": "Celebrate your love in a romantic setting perfect for honeymooners.",
+    "price": 28000,
+    "keywords": "honeymoon romance nature couple goa 28000",
+    "location": "Goa",
+    "category": "Honeymoon"
+  },
+  {
+    "id": 7,
+    "src": "https://images.unsplash.com/photo-1544961730-ec9b1220a960?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80",
+    "title": "Thrilling Trek",
+    "desc": "Embark on an exciting trekking adventure and conquer new heights.",
+    "price": 30000,
+    "keywords": "trek family thrill nagaland 30000",
+    "location": "Nagaland",
+    "category": "Trekking"
+  },
+  {
+    "id": 8,
+    "src": "https://images.unsplash.com/photo-1617608436966-601ebdeabe82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80",
+    "title": "Tropical Paradise",
+    "desc": "Escape to a breathtaking tropical paradise with pristine beaches and crystal-clear waters.",
+    "price": 15000,
+    "keywords": "summer beach romance relaxation goa 15000",
+    "location": "Goa",
+    "category": "Summer"
+  },
+  {
+    "id": 9,
+    "src": "https://images.unsplash.com/photo-1627286719058-53b481a30670?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+    "title": "Winter Wonderland",
+    "desc": "Experience the magic of winter in a stunning snowy wonderland.",
+    "price": 25000,
+    "keywords": "winter snow skiing cosy kashmir 25000",
+    "location": "Kashmir",
+    "category": "Winter"
+  },
+  {
+    "id": 10,
+    "src": "https://images.unsplash.com/photo-1573585035823-4f1c5bd29446?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+    "title": "Family Adventure",
+    "desc": "Embark on an unforgettable adventure the whole family will enjoy.",
+    "price": 20000,
+    "keywords": "family adventure run memories goa 20000",
+    "location": "Goa",
+    "category": "Family"
+  },
+  {
+    "id": 11,
+    "src": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+    "title": "Romantic Getaway",
+    "desc": "Rekindle your love on a romantic getaway filled with special moments.",
+    "price": 18000,
+    "keywords": "romance couple relaxation luxury LA Los Angeles 18000",
+    "location": "Los Angeles",
+    "category": "Valentine"
+  },
+  {
+    "id": 12,
+    "src": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "title": "Monsoon Retreat",
+    "desc": "Immerse yourself in the beauty of nature during the magical monsoon season.",
+    "price": 12000,
+    "keywords": "monsoon nature rain serenity mumbai 12000",
+    "location": "Mumbai",
+    "category": "Monsoon"
+  },
+  {
+    "id": 13,
+    "src": "https://images.unsplash.com/photo-1605009450307-f246f87d5a5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+    "title": "Honeymoon Escape",
+    "desc": "Begin your journey of love in a romantic and idyllic honeymoon destination.",
+    "price": 28000,
+    "keywords": "honeymoon romance luxury paradise goa 28000",
+    "location": "Goa",
+    "category": "Honeymoon"
+  },
+  {
+    "id": 14,
+    "src": "https://images.unsplash.com/photo-1611519920740-5eb49ce16fe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=741&q=80",
+    "title": "Thrilling Trekking",
+    "desc": "Embark on an adrenaline-pumping trekking adventure to conquer majestic peaks.",
+    "price": 30000,
+    "keywords": "trekking adventure mountains challenge goa 30000",
+    "location": "Goa",
+    "category": "Trekking"
+  }
+]
